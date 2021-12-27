@@ -1,0 +1,20 @@
+
+.pie {
+    text-align: center;
+    color: hsl(22, 94%, 49%);
+    padding: 5px;
+    background-color: #F2CC0F; }
+  
+  .pie__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  
+  .pie__icons--size {
+    width: 30px;
+    margin-right: 20px;
+    transition: .3s ease all; }
+  
+  .pie img:hover{
+      transform: scale(1.2);
+  }

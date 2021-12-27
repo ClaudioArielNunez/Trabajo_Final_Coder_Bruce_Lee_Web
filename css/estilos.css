@@ -1,0 +1,222 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.9rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.9rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote {
+  font-weight: bolder;
+}
+
+.bgColor {
+  background-color: #F2CC0F;
+}
+
+.imgLogo {
+  width: 150px;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.text {
+  text-decoration: none;
+  color: #262626;
+}
+
+.btn_error {
+  width: 25%;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.btn_error:hover {
+  background-color: #f2cc0fc4;
+  color: #262626;
+}
+
+.pie {
+  text-align: center;
+  color: #f25e07;
+  padding: 5px;
+  background-color: #F2CC0F;
+}
+
+.pie__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pie__icons--size {
+  width: 30px;
+  margin-right: 20px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.pie img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/* formulario Newsletter*/
+.loginContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.609);
+}
+
+.loginContainer input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginContainer input[type="text"],
+.loginContainer input[type="email"] {
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+  height: 40px;
+  background: transparent;
+  color: black;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.loginContainer input[type="submit"] {
+  height: 40px;
+  border-radius: 15px;
+  font-size: 16px;
+  background: rgba(85, 107, 47, 0.37);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.loginContainer:hover {
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.loginContainer input[type="submit"]:hover {
+  background: #f2cc0f80;
+  color: #262626;
+}
+
+.imgNewsletter {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Media Queries Formulario */
+@media screen and (max-width: 1041px) {
+  .loginContainer {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 60%;
+  }
+  h1 {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .loginContainer {
+    width: 80%;
+  }
+  .cover {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
